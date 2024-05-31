@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container{
+    margin:30px 140px;
+}
+
+
+/* Nav section starts here  */
+.navigation-section{
+    display: flex;    
+    justify-content: space-between;
+}
+
+
+.logo h1{
+    font-family: "Poppins", sans-serif; font-weight: 700;
+    font-size: 32 px;
+    color:var(--logo-color);
+}
+.nav-menu{
+    display: flex;    
+    gap:20px;    
+    align-items: center;
+}
+.nav-menu h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+.download-cv h1{
+    background-color: var(--logo-color);
+    padding: 10px 15px;
+}
+/* navigation section end */
+/* banner section start */
+
+.full-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+.sylhet{
+    color: var(--logo-color);
+}
+
+.banner-title h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.banner-title-bottom{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    gap:20px;
+    
+}
+.banner-title h3{
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    
+}
+
+.parent-portfolio-button{
+    margin-top: 40px;
+    border: 2px solid rgb(183, 177, 177);
+    background-color: #343434;    
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding: 10px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.portfolio-button-container{
+    border: 2px solid white;
+    background-color:var(--logo-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px;
+    height: 60px; */
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+.portfolio-button-container h3{
+    font-weight: 400;
+    margin: 10px;
+}
+.porfolio-icon{
+    width: 25px;
+    height: 25px;
+}
+.hire-me h3{
+    
+    padding: 0 40px;
+}
+
+
+.social-icon-parent{
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icon{
+    font-size: 35px;
+    
+}
+.social-media-icon i{
+    color:#a6a2a2;
+    
+}
+.banner-photo img{
+    width: 700px;
+
+}
+/* banner section End */
+/* About me section start  */
+
+.about-me-container{
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+}
+
+.about-me-left{
+    
+    width: 60%;
+    
+}
+.about-me-right{
+    text-align: right;
+    width: 40%;
+    
+    
+}
+
+/* .about-title{
+    text-align: right;
+} */
+
+.about-title h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+}
+.about-title h2{
+    font-size: 47px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.about-title h3{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.about-title p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+/* about end  */
+/* experience start  */
+.experience-container{
+    background:linear-gradient(45deg,#220d2e,
+    #372710);
+    margin:calc(-1*134px);
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+
+.exp-padding{
+    margin: 20px 134px;
+}
+
+.full-exp-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    padding: 40px 0;
+    
+}
+
+.experience-left{
+    width: 30%;
+}
+
+.experience-left h3{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.experience-left h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    /* margin: 0; */
+}
+.experience-left p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    
+}
+.experience-right{
+    width: 40%;
+    
+}
+.full-exp-rt-top{
+    border-bottom: 1px solid rgb(110, 104, 104);
+}
+.exp-rt-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp-rt-top h1{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.exp-rt-top h2{
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;    
+}
+.exp-title{
+    margin:0 ;
+}
+.exp-title h1{
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    margin-top:0;
+}
+/* experience end  */
+
+/* award start  */
+
+
+
+.award-middle{
+    display: flex;    
+    padding: 20px 80px;
+    background-color: black;
+    margin: 30px;
+}
+
+.award-up h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.award-up p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.best-mobile h1{
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.award-desc p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.award-right h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: right;
+}
+
+.award-left{
+    width: 70%;
+}
+.award-right{
+    width: 30%;
+}
+/* award end  */
+
+/* portfolio start  */
+
+.portfolio-icon{
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    
+}
+ 
+    
+.port-ui{    
+    background-color: black;
+    padding: 7px 20px;
+    
+}
+.port-web{
+    background-color: var(--logo-color);
+    padding: 7px 20px;
+}
+
+.port-ui span{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;  
+      
+}
+.port-web span{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;  
+      
+}
+.banner-photo img{
+    width: 500px;
+}
+
+.portfolio-banner-container{
+    margin-top: 60px;
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+}
+
+.banner-desc h2{
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+.banner-desc h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.banner-desc p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+/* portfolio end  */
+
+/* Contact start  */
+.contact-container{
+    margin-top: 200px;
+}
+
+.contact-head{
+    text-align: center;
+    
+}
+
+.contact-head h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600; 
+    font-style: italic;
+}
+.contact-head h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700; 
+    margin-top: 0;
+    
+}
+.contact-brown{
+    width: 100%;
+    height: 600px;
+    display: flex;         
+    background-color: rgb(62, 32, 8);
+   
+}
+
+.contact-info{
+    width: 80%;
+    height: 500px;
+    border: 2px solid wheat;
+    margin: 70px auto;
+    
+}
+.contact-title{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 260px;
+    border-bottom: 2px solid white;
+    
+}
+.email{
+    width: 260px;
+    border-bottom: 2px solid white;
+    
+}
+.attach{
+    width: 100%;
+    border-top: 2px solid white;
+}
+
+.contact-title h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700; 
+}
+.name, .email, .message, .attach{
+    margin: 40px 0;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.attach-icon{
+    width: 25px;
+    
+}
+.submit{
+    
+    width:200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--logo-color);
+}
+
+/* contact end  */
+
+/* footer section start  */
+
+.foooter-container{
+    height: 500px;
+    background-color: black;
+    margin:calc(-1*134px);
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+
+}
+
+.footer-flex{
+    display: flex;
+    gap:35px;
+    justify-content: space-between;
+    margin: 60px 300px;
+    
+}
+
+.footer-logo h1{
+    font-family: "Poppins", sans-serif; font-weight: 700;
+    font-size: 60px;
+    color:var(--logo-color);
+    text-align: center;
+}
+.footer-bar h1{
+    font-size: 26px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    
+}
+.footer-icon{
+    text-align: center;
+    
+}
+.footer-icon i{
+    color: white;
+    
+}
+.rights h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
